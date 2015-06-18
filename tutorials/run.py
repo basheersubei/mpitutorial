@@ -8,7 +8,7 @@ import subprocess
 programs = {
     # From the mpi-hello-world tutorial
     'mpi_hello_world': ('mpi-hello-world', 4),
-
+    'mpi_test': ('mpi-hello-world', 4),
     # From mpi-send-and-receive tutorial
     'send_recv': ('mpi-send-and-receive', 2),
     'ping_pong': ('mpi-send-and-receive', 2),
@@ -17,6 +17,7 @@ programs = {
     # From the dynamic-receiving-with-mpi-probe-and-mpi-status tutorial
     'check_status': ('dynamic-receiving-with-mpi-probe-and-mpi-status', 2),
     'probe': ('dynamic-receiving-with-mpi-probe-and-mpi-status', 2),
+    'probe2': ('dynamic-receiving-with-mpi-probe-and-mpi-status', 2),
 
     # From the point-to-point-communication-application-random-walk tutorial
     'random_walk': ('point-to-point-communication-application-random-walk', 2, ['100', '500', '20']),
