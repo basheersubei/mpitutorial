@@ -9,6 +9,7 @@ programs = {
     # From the mpi-hello-world tutorial
     'mpi_hello_world': ('mpi-hello-world', 4),
     'mpi_test': ('mpi-hello-world', 4),
+    'mpi_test_weird': ('mpi-hello-world', 4),
     # From mpi-send-and-receive tutorial
     'send_recv': ('mpi-send-and-receive', 2),
     'ping_pong': ('mpi-send-and-receive', 2),
@@ -21,6 +22,7 @@ programs = {
 
     # From the point-to-point-communication-application-random-walk tutorial
     'random_walk': ('point-to-point-communication-application-random-walk', 2, ['100', '500', '20']),
+    'random_walk2': ('point-to-point-communication-application-random-walk', 5, ['100', '500', '20']),
 
     # From the mpi-broadcast-and-collective-communication tutorial
     'my_bcast': ('mpi-broadcast-and-collective-communication', 4),
